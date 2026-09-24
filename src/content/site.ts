@@ -25,13 +25,14 @@ export const site = {
 } as const;
 
 /**
- * Figures confirmed by Aryan on 23 Sept 2026 ("1200+ clients, 21+ years of experience, 4+ countries").
- * "Years of experience" is deliberate: the discovery record has eight of those years in this practice.
+ * Figures confirmed by Aryan on 24 Sept 2026: 15 years of experience, 10,000+ clients, 5 countries.
+ * Shown with a plus, as a floor. "Years of experience" is deliberate: it counts her working life, not
+ * only the years in this practice.
  */
 export const figures = [
-  { value: "21+", label: "Years of experience" },
-  { value: "1,200+", label: "Clients guided" },
-  { value: "4+", label: "Countries" },
+  { value: "15+", label: "Years of experience" },
+  { value: "10,000+", label: "Clients guided" },
+  { value: "5+", label: "Countries" },
 ] as const;
 
 export type NavItem = { label: string; href: string; short?: string };

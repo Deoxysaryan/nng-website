@@ -24,7 +24,7 @@ What moved performance: the framework's scripts now load 400 ms after the page h
 | 2 | Who she is and what she does named in the first screen | "Narayani Garg · numerology, vastu and astrology" above the headline | yes |
 | 3 | One primary action above the fold, ending within 60 percent of the screen | "Enquire about a consultation" ends at 392 px, 46 percent (was 836 px, past the fold) | yes |
 | 4 | The button says what happens next, and a note removes the fear of commitment | "Enquire about a consultation"; "Pick a topic; WhatsApp opens with your message written." | yes |
-| 5 | Proof next to the action, with a source | 21+ years, 1,200+ clients, 4+ countries at 445 px, "Figures from the practice, September 2026" | yes |
+| 5 | Proof next to the action, with a source | 15+ years, 10,000+ clients, 5+ countries (figures as corrected on 24 Sept 2026) at 445 px, "Figures from the practice, September 2026" | yes |
 | 6 | The real person in the first screen | Her portrait from 559 px, inside the first screen | yes |
 | 7 | One filled button per screen | One in the first screen | yes |
 | 8 | A sticky action once the first button scrolls away | The bar appears after the hero and steps aside at the footer | yes |

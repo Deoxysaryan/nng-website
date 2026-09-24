@@ -18,7 +18,7 @@ export const story = [
   {
     step: "The practice",
     title: "Numerology, vastu and astrology, with the mind first.",
-    text: "Consultations by word of mouth: more than 1,200 clients, in India and abroad.",
+    text: "Consultations by word of mouth: more than 10,000 clients, in India and abroad.",
   },
   {
     step: "The book",

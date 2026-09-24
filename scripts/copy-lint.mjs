@@ -52,7 +52,7 @@ const rules = [
   { name: "astrologer as her title", re: /\bastrologer\b/gi, why: "Not her title. Describe what she practises instead." },
   { name: "abundance", re: /\babundance\b/gi, why: "Name the four areas as she does: Health, Relationship, Career, Money." },
   { name: "book title as a line", re: /change your mind,? transform your life/gi, why: "Her book's title. Use it only as the title (bookTitle in src/content/about.ts)." },
-  { name: "wrong numbers", re: /(12,000|12000\+)/g, why: "Use the confirmed figures: 1,200+ clients, 21+ years, 4+ countries (23 Sept 2026)." },
+  { name: "outdated figures", re: /(12,000|12000\+|1,200\+|1200\+|more than 1,200|\b21\+|4\+ countries)/g, why: "Use the current figures: 15+ years, 10,000+ clients, 5+ countries (confirmed 24 Sept 2026)." },
 
   // Expressly excluded features
   { name: "tarot", re: /\btarot\b/gi, why: "She asked for tarot to be removed everywhere." },

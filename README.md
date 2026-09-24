@@ -94,7 +94,7 @@ Left out on purpose: pop-ups, chat bubbles, floating buttons over text, countdow
 
 ## Content rules
 
-- Identity: Narayani Garg · The Life Strategist · Mind. Direction. Alignment. Figures: 21+ years of experience, 1,200+ clients, 4+ countries (confirmed by Aryan, 23 Sept 2026).
+- Identity: Narayani Garg · The Life Strategist · Mind. Direction. Alignment. Figures: 15+ years of experience, 10,000+ clients, 5+ countries (confirmed by Aryan, 24 Sept 2026).
 - No prices or packages anywhere until the courses launch in January 2027 (Narayani's voice note, 21 Sept 2026).
 - Client quotes come from machine transcripts of the client films (23 Sept 2026); Hindi is translated and marked. Nobody has checked them by ear yet, so play each film against its quote before launch. Names show as first name and initial until spellings are confirmed. Keep written consent on file for every client shown before launch.
 - The films are not copied into this project. Posters and players load from the shared Google Drive folder, so the owner keeps control of sharing.

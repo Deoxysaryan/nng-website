@@ -13,7 +13,7 @@ import { FilmViewer } from "@/components/voices/FilmViewer";
 import { site } from "@/content/site";
 
 const description =
-  "Personal guidance with Narayani Garg, The Life Strategist. Numerology, vastu and astrology, with the mind first. 21+ years of experience and 1,200+ clients across 4+ countries.";
+  "Personal guidance with Narayani Garg, The Life Strategist. Numerology, vastu and astrology, with the mind first. 15+ years of experience and 10,000+ clients across 5+ countries.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
