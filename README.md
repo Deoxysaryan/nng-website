@@ -141,6 +141,7 @@ Aryan asked for an audit of the design's inefficiencies and of its visual issues
 
 ## Measured quality (24 Sept 2026, third pass)
 
+- Live preview, 24 Sept 2026 (Lighthouse mobile, warm cache): Performance, Accessibility and Best Practices 100 on all five pages. The first request after a deploy can read a few points lower while GitHub's servers cache the new files; measure twice.
 - Lighthouse mobile (simulated slow 4G, 4x CPU) on the static export served with gzip: Performance 100 on all five pages since the third pass (LCP 1.6 to 1.8 s, CLS 0, total blocking time 10 to 50 ms; before it 94, 99, 98, 92, 97); Accessibility 100 and Best Practices 100 on every page; SEO 100 on every page when built indexable (it reads 63 to 69 on the `noindex` preview). Served without compression the same pages score 79 to 82, so the host must compress. Numbers and the mobile conversion checklist in `MOBILE_CRO_2026-09-24.md`.
 - axe: 0 violations on all five pages at 1440 and 390 px with the WCAG 2.0, 2.1 and 2.2 AA rules and axe's best-practice rules, in this build and in the portable copy (the review banner is a named region since the audit; before that it sat outside every landmark).
 - 12 screen sizes from 320 × 568 to 1920 × 1080, including a landscape phone and two iPads: 72 page and dialog views, no sideways scrolling, no text under 10 px, tap targets at least 44 px, every dialog fits.
