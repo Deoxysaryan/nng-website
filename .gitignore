@@ -12,7 +12,8 @@ next-env.d.ts
 # iCloud-proof folders: the .nosync suffix stops iCloud syncing or evicting them
 node_modules.nosync
 .next.nosync
-portable
+# The review package at the project root only; scripts/portable (the scripts that build it) is tracked
+/portable
 
 # Names the copy lint blocks (competitors, unconsented clients): kept off GitHub
 scripts/copy-lint.private.txt
