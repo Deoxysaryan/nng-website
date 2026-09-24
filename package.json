@@ -1,0 +1,34 @@
+{
+  "name": "nng-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Transformation with NNG: parallel website build (homepage first).",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev -p 3400",
+    "build": "next build",
+    "start": "next start -p 3400",
+    "lint": "eslint .",
+    "lint:copy": "node scripts/copy-lint.mjs",
+    "nosync": "node scripts/nosync.mjs",
+    "typecheck": "tsc --noEmit",
+    "export": "NEXT_EXPORT=1 next build && node scripts/after-export.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^22.20.4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.3.5",
+    "tailwindcss": "4.3.3",
+    "typescript": "~5.9.3"
+  }
+}

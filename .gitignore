@@ -1,0 +1,18 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# iCloud-proof folders: the .nosync suffix stops iCloud syncing or evicting them
+node_modules.nosync
+.next.nosync
+portable
+
+# Names the copy lint blocks (competitors, unconsented clients): kept off GitHub
+scripts/copy-lint.private.txt
